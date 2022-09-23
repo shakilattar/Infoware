@@ -63,6 +63,7 @@ flutter:
   assets:
     - adobe.png
     - brand.png
+    - nvidia.png
     - trading.png
   #   - images/a_dot_ham.jpeg
 
