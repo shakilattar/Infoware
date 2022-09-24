@@ -545,6 +545,27 @@ class _HomeScreenState extends State<HomeScreen> {
           ),
         ),
       ),
+      bottomNavigationBar: Container(
+        padding: EdgeInsets.only(left: 24, right: 0, top: 0, bottom: 8),
+        height: _mediaQuery.size.height * 0.1,
+        child: Row(
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Icon(Icons.home_filled, size: 30),
+            Icon(Icons.pie_chart_outline, size: 30),
+            CircleAvatar(
+                backgroundColor: Color.fromRGBO(96, 200, 158, 1),
+                child: Icon(
+                  Icons.sync_alt_outlined,
+                  size: 20,
+                  color: Colors.white,
+                )),
+            Icon(Icons.candlestick_chart_outlined, size: 30),
+            Icon(Icons.person_outline, size: 30),
+          ],
+        ),
+      ),
     );
   }
 }
