@@ -36,6 +36,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 color: Colors.black,
               ))
         ],
+        titleSpacing: 0,
         title: Text(
           'Alex Julia',
           style: TextStyle(
